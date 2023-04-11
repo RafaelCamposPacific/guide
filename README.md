@@ -43,7 +43,7 @@ Executar em powershell (dentro da pasta C:\Users\"user"\connect) os seguintes co
 
 - 5.2  Chisel Tunnel
    Download no [1drive](https://1drv.ms/f/s!AjfrkQYLG_fYgSX-FsDPaSIMLnfq?e=lS5hOx) ou [github](https://github.com/tu74nkamon/guide/blob/main/VENUS.zip) e alterar em cada maquina diferente a porta para o intervalo de 1080 ate 1090\
->>> Executar no CMD do windows\ 
+Executar no CMD do windows\ 
    PC1) venus.exe client https://lobster.cwdlab.com R:127.0.0.1:1080:socks\
    PC2) venus.exe client https://lobster.cwdlab.com R:127.0.0.1:1081:socks\
    PC3) venus.exe client https://lobster.cwdlab.com R:127.0.0.1:1082:socks\
@@ -79,4 +79,4 @@ Executar em powershell (dentro da pasta C:\Users\"user"\connect) os seguintes co
 Instale o programa e logue em computadores e contatos com a conta fornecida\
 ![image](https://user-images.githubusercontent.com/70968631/231211994-491e7898-a76b-4915-b32d-dfe316566960.png)
 
->>>>>>>>>>>>>> Comprima a pasta **C:\tmp** e envie para cloud <<<<<<<<<<<
+ #Comprima a pasta **C:\tmp** e envie para cloud 
