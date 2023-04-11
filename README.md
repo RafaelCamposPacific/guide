@@ -42,8 +42,9 @@ Executar em powershell (dentro da pasta C:\Users\"user"\connect) os seguintes co
 - Start-Connect -d "n1.cwdlab.com" -s "172.16.1.197"
 
 - 5.2  Chisel Tunnel
-   Download no [1drive](https://1drv.ms/f/s!AjfrkQYLG_fYgSX-FsDPaSIMLnfq?e=lS5hOx) ou [github](https://github.com/tu74nkamon/guide/blob/main/VENUS.zip) e alterar em cada maquina diferente a porta para o intervalo de 1080 ate 1090\
-Executar no CMD do windows\ 
+   Download no [1drive](https://1drv.ms/f/s!AjfrkQYLG_fYgSX-FsDPaSIMLnfq?e=lS5hOx) ou [github](https://github.com/tu74nkamon/guide/blob/main/VENUS.zip) e alterar em cada maquina diferente a porta para o intervalo de 1080 ate 1090 (Executar no CMD do windows)\
+
+
    PC1) venus.exe client https://lobster.cwdlab.com R:127.0.0.1:1080:socks\
    PC2) venus.exe client https://lobster.cwdlab.com R:127.0.0.1:1081:socks\
    PC3) venus.exe client https://lobster.cwdlab.com R:127.0.0.1:1082:socks\
